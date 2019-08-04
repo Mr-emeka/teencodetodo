@@ -1,0 +1,60 @@
+* {
+  font-size: 100%;
+}
+
+body {
+  margin: 4rem;
+  width: 30%;
+}
+
+input {
+  margin: 1rem 0;
+  /* width: 70%; */
+  padding: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  background: blue;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  color: white;
+}
+
+#apply-button {
+  display: none;
+}
+
+.todo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 40px;
+}
+
+.todo>p {
+  padding-left: 20px;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.todo>button {
+  background-color: green;
+  /* width: 100%; */
+}
+
+.todo>span {
+  justify-self: center;
+  align-self: center;
+  float: right;
+  cursor: pointer;
+  color: red;
+}
+
+.todo>input {
+  justify-self: center;
+  align-self: center;
+}
+
+.todo>span:hover {
+  color: black;
+}
